@@ -19,11 +19,11 @@ public:
 	uint8_t keypad[16] = {0};
 	uint32_t video[64 * 32] = {0};
 	uint16_t index = 0;
-	uint16_t pc = 0;
-	uint8_t sp = 0;
-	uint8_t delayTimer = 0;
-	uint8_t soundTimer = 0;
-	uint16_t opcode;
+	uint16_t pc = {};
+	uint8_t sp = {};
+	uint8_t delayTimer = {};
+	uint8_t soundTimer = {};
+	uint16_t opcode = {};
 
 	/*
 	With physical hardware random number in the register could be achieved by,
