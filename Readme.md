@@ -122,21 +122,7 @@ To contribute, please follow these steps:
 ### Issues
 If you find bugs or have feature requests, feel free to open an issue on the repository.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-### Example:
-
-```bash
-python chip8_emulator.py pong.ch8
-```
-
-This will load the **PONG** game, and you can use the keyboard to interact with the game.
-
----
 
 ### Notes:
 - This is a basic template for a CHIP-8 emulator. You can expand the **README** based on the specific features and functionality of your emulator.
