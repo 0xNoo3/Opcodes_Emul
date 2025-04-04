@@ -25,11 +25,6 @@ This project implements a CHIP-8 emulator that allows you to run old **CHIP-8** 
 - Implements **basic CPU operations**: `LD`, `ADD`, `AND`, `OR`, `XOR`, etc.
 - User-friendly interface for loading and running CHIP-8 programs.
 
-## Installation
-
-### Requirements
-
-
 
 ## Contributing
 
@@ -41,7 +36,7 @@ To contribute, please follow these steps:
 1. Fork this repository.
 2. Clone your fork:
     ```bash
-    git clone https://github.com/YourUsername/Chip8-Ver1.git
+    https://github.com/0xNoo3/Opcodes_Emul.git
     ```
 3. Create a new branch for your feature:
     ```bash
