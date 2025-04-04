@@ -29,77 +29,12 @@ This project implements a CHIP-8 emulator that allows you to run old **CHIP-8** 
 
 ### Requirements
 
-Before running the emulator, make sure you have the following installed on your system:
 
-- [Python](https://www.python.org/downloads/) (if using a Python-based implementation)
-- [C++ compiler](https://www.gnu.org/software/gcc/) (if using a C++ implementation)
-- **SDL2** (if you want to use the GUI features like rendering and sound)
-  
-For Windows, macOS, or Linux, SDL2 can be installed with package managers like `brew` on macOS, `apt` on Ubuntu, or `choco` on Windows.
-
-#### Clone the repository:
-
-```bash
-git clone https://github.com/YourUsername/Chip8-Ver1.git
-cd Chip8-Ver1
-```
-
-### Installing Dependencies
-
-For a Python-based emulator, you may need to install some dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-For a C++ implementation, make sure to install SDL2, and then compile the project with `make` (or any build tool you prefer).
-
-## Usage
-
-To run the CHIP-8 emulator:
-
-### Run via Command Line
-
-1. Open a terminal or command prompt in the project directory.
-2. Use the following command to start the emulator with a CHIP-8 game file (e.g., `game.ch8`):
-
-```bash
-python chip8_emulator.py game.ch8
-```
-
-For C++ implementations, you may need to compile and then run:
-
-```bash
-./chip8_emulator game.ch8
-```
-
-Replace `chip8_emulator` with the name of your executable if it's different.
-
-### Controls
-
-- **Arrow keys**: Move or interact (depends on the game).
-- **Number keys**: Map to CHIP-8 keys (usually `1`, `2`, `3`, `4`, etc.).
-- **Esc**: Quit the emulator.
-- **Enter**: Start the game or confirm selections.
-
-For a detailed list of controls, refer to the documentation of the specific CHIP-8 games you’re running.
-
-## Running CHIP-8 Programs
-
-To run a CHIP-8 program, you simply need to pass the **.ch8** file (or **.bin**) to the emulator:
-
-1. **Obtain CHIP-8 programs**:
-    - There are many free CHIP-8 programs available online. You can search for classic games like "PONG", "TETRIS", and more.
-    - Ensure the game is in **.ch8** or **.bin** format.
-    
-2. **Load the program**:
-    - Use the command `python chip8_emulator.py path_to_game.ch8` to load and run the game.
-
----
 
 ## Contributing
 
-We welcome contributions to the CHIP-8 emulator! If you'd like to improve the project or add features, feel free to fork this repository and submit a pull request.
+As in this project only the opcodes are emulated no sprite rendering/graphical stuff is done so,
+We welcome contributions to the CHIP-8 emulator! If you'd like to add features, feel free to fork this repository and submit a pull request.
 
 To contribute, please follow these steps:
 
@@ -125,4 +60,4 @@ If you find bugs or have feature requests, feel free to open an issue on the rep
 
 
 ### Notes:
-- This is a basic template for a CHIP-8 emulator. You can expand the **README** based on the specific features and functionality of your emulator.
+- This is a basic template. You can expand the **README** based on the specific features and functionality of your emulator.
